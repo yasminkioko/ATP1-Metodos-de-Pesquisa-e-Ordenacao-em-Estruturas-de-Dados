@@ -4,12 +4,12 @@ public class Lista {
 
     private No primeiro=null;
 
-//Deverá ter um objeto com o endereço do primeiro elemento da lista.
+
     public No getPrimeiro(){
         return primeiro;
     }
 //Método vazia: deverá verificar se a lista está vazia ou não.
-    public boolean Vazia(){ //boolean, portanto verdadeiro ou falso
+    public boolean Vazia(){ 
         if (primeiro == null){
             return true;
         }
@@ -67,7 +67,7 @@ public class Lista {
             }
 
         }
-
+    
 //Método removeUltimo: deverá remover o último nó da lista.
 
         public void removeUltimo(){
@@ -91,8 +91,6 @@ public class Lista {
 
         }
 
-
-
 //Método remove: deverá remover qualquer nó da lista, deverá passar este nó como parâmetro na chamada do método.
 
     public void removeDepois(No no){
@@ -110,11 +108,7 @@ public class Lista {
         }
 
 }
-
-
         
-
-
 //Método mostrar: deverá mostrar no console todos os itens da lista.
         public void Mostrar(){
 
@@ -127,8 +121,5 @@ public class Lista {
                     System.out.println(n.getElemento());
                 }
             }
-            
-
         }
-
 }
